@@ -1,0 +1,104 @@
+
+/* wrapper start*************/
+.wrapper{
+    width:100%;
+    height: auto;
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+/* header start*************/
+.wrapper header{
+    width:100%;
+    height:500px;
+    padding: 0;
+    margin: 0;
+}
+
+/* left_header start*************/
+.wrapper header .left_header{
+    width: 900px;
+    height: 500px;
+    float: left;
+    background-color: #e9eae2;
+    background-image: url("../images/left_header.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.wrapper header .left_header .logo{
+    width: 160px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.wrapper header .left_header .logo .header_paragraph{
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 90px;
+    height: auto;
+    font-family: "Myriad Pro";
+}
+
+.wrapper header .left_header .logo .social{
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.wrapper header .left_header .logo .social ul{
+    margin: 0;
+    padding: 0;
+}
+.wrapper header .left_header .logo .social ul li{
+    list-style: none;
+    float: left;
+}
+.wrapper header .left_header .logo .social ul li a {
+    color: #7bcbc1;
+    font-size: 23px;
+    margin-right: 9px;
+    transition: all 1s;
+}
+.wrapper header .left_header .logo .social ul li a:hover {
+    color: #ebb240;
+}
+
+/*right_header***********/
+.wrapper header .right_header{
+    background-color: #7acec3;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper header .right_header hr{
+    position: absolute;
+    width: 1140px;
+    transform: rotate(-48deg);
+    background-color: white;
+   margin-left: -190px;
+    margin-top: 76px;
+    border: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+/*right_header***********/
+.wrapper header .right_header{
+    background-color: #7acec3;
+    height: 500px;
+    width: 295px;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+.wrapper header .right_header .left_triangle{
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-left: 335px solid #7acec3;
+    border-bottom: 499px solid #7acec3;
+}
+
+
+<article class="left_triangle">
+
+                              </article>
+
+                                <article class="right_triangle">
+
+                                                               </article>
