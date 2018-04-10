@@ -1,4 +1,5 @@
 
+.clear{clear: both;}
 /* wrapper start*************/
 .wrapper{
     width:100%;
@@ -85,9 +86,121 @@
    margin-left: -190px;
     margin-top: 76px;
     border: none;
-
-
 }
+
+/*menu************/
+
+.wrapper header .right_header .menu_header{
+    width: 300px;
+    height: auto;
+    z-index: 99999;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.wrapper header .right_header .menu_header .dropdown{
+    width: 125px;
+    height:auto;
+    overflow: hidden;
+    float: right;
+}
+
+.wrapper header .right_header .menu_header .dropdown button{
+    width:125px ;
+    height: 125px;
+    background-image: url("../images/menu.png");
+    background-color: transparent;
+    float: right;
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.wrapper header .right_header .menu_header .dropdown nav{
+    width: 125px;
+    height: auto;
+    float: right;
+    display:none;
+    transition: all 1s;
+}
+
+.wrapper header .right_header .menu_header .dropdown nav ul{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.wrapper header .right_header .menu_header .dropdown nav ul li{
+    list-style: none;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    text-align: center;
+    color:#60ccbe;
+    margin-bottom: 2px;
+}
+
+.wrapper header .right_header .menu_header .dropdown nav ul li a{
+    text-decoration: none;
+    color:#60ccbe;
+    font-family: "Myriad Pro";
+}
+
+.wrapper header .right_header .menu_header .dropdown nav ul li:hover{
+    background-color: #f1f2f2;
+}
+
+.wrapper header .right_header .menu_header .dropdown nav ul li a:hover{
+    color:#37ac9d;
+}
+
+.wrapper header .right_header .menu_header .dropdown:hover nav {
+    display: block;
+}
+
+/*address*******/
+.wrapper header .right_header .add_phone{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    bottom:70px;
+    left: 0;
+}
+
+.wrapper header .right_header .add_phone .address{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.wrapper header .right_header .add_phone .address p{
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+}
+
+/*phone*******/
+.wrapper header .right_header .add_phone .phone{
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.wrapper header .right_header .add_phone .phone p{
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+}
+
+
+
+
+
+
 
 
 
