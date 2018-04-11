@@ -1,15 +1,30 @@
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
+
 
 .clear{clear: both;}
 /* wrapper start*************/
 .wrapper{
     width:100%;
     height: auto;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
-/* header start*************/
+/* header section start*************/
 .wrapper header{
     width:100%;
     height:500px;
@@ -195,6 +210,411 @@
     font-family: "Myriad Pro";
     font-size: 13px;
 }
+
+
+/*projects section************/
+.wrapper .projects{
+    width:900px;
+    height:500px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+/*project************/
+.wrapper .projects .project{
+    width: 400px;
+    height: 500px;
+    float: left;
+    background-color: #ebb240;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper .projects .project hr{
+    position: absolute;
+    width: 1080px;
+    transform: rotate(-51deg);
+    background-color: white;
+    margin-left: -219px;
+    margin-top: 99px;
+    border: none;
+}
+
+.wrapper .projects .project .project_data{
+    width: 130px;
+    height: 95px;
+    position: absolute;
+    z-index: 999999;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.wrapper .projects .project .project_data .left_data{
+    float: left;
+    width: 50px;
+    height: 95px;
+}
+.wrapper .projects .project .project_data .left_data i{
+    color: #ffffff;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0%{left:0px; opacity: 0.2;}
+    100%{ left: 30px; opacity: 1;}
+}
+
+
+.wrapper .projects .project .project_data .right_data{
+    width: 70px;
+    height: 95px;
+    float: right;
+    text-align: left;
+}
+
+.wrapper .projects .project .project_data .right_data p span{
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .projects .project .project_data .right_data p{
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin: 0;
+}
+
+.wrapper .projects .project .project_title{
+    width: auto;
+    height:auto;
+    position: absolute;
+    z-index: 99999;
+    overflow: hidden;
+    right:30px;
+    bottom:150px;
+}
+
+.wrapper .projects .project .project_title h1{
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: RobotoCondensed-Light;
+    margin: 0;
+}
+
+/*Fondue srart*******/
+.wrapper .projects .Fondue{
+    width: 496px;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/Fondue_img.jpg");
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+
+.wrapper .projects .Fondue .Fondue_data{
+    width: 210px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.wrapper .projects .Fondue .Fondue_data h1{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wrapper .projects .Fondue .Fondue_data ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .projects .Fondue .Fondue_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.wrapper .projects .Fondue .Fondue_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0%{left:0px; opacity: 0.2;}
+    100%{ left: 30px; opacity: 1;}
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .right_data p {
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .Fondue_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .Fondue_like i{
+    color: black;
+    font-size: 20px;
+}
+.wrapper .projects .Fondue .Fondue_data .Fondue_view .Fondue_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+
+
+/*right_projects section*******/
+.wrapper .right_projects{
+    width:433px;
+    height:auto;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+/*potter started********/
+.wrapper .right_projects .potter{
+    height:270px;
+    background-color: #dfe0d9;
+    width: 100%;
+    float: right;
+    background-image: url("../images/potter.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.wrapper .right_projects .potter .potter_data{
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.wrapper .right_projects .potter .potter_data h1{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.wrapper .right_projects .potter .potter_data p{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 13px;
+}
+.wrapper .right_projects .potter .potter_data p span{
+    color:black;
+    font-size: 13px;
+    font-family: RobotoCondensed-Bold;
+    text-transform: uppercase;
+}
+.wrapper .right_projects .potter .potter_data .potter_view{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.wrapper .right_projects .potter .potter_data .potter_view .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.wrapper .right_projects .potter .potter_data .potter_view .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0%{left:0px; opacity: 0.2;}
+    100%{ left: 30px; opacity: 1;}
+}
+
+.wrapper .right_projects .potter .potter_data .potter_view .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.wrapper .right_projects .potter .potter_data .potter_view .right_data p{
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 19px;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .right_projects .potter .potter_data .potter_view .potter_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper .right_projects .potter .potter_data .potter_view .potter_like i{
+    color: black;
+    font-size: 20px;
+}
+.wrapper .right_projects .potter .potter_data .potter_view .potter_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+/*tabano started********/
+.wrapper .right_projects .tabano{
+    height:500px;
+    background-color: #f7f7f3;
+    width: 100%;
+    float: right;
+    background-image: url("../images/tabano.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+.wrapper .right_projects .tabano .tabano_data{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    float: left;
+}
+
+.wrapper .right_projects .tabano .tabano_data ul{
+    margin: 0;
+    padding: 0;
+    width: 182px!important;
+    padding-left: 20px;
+    display: inline-block;
+    float: left;
+}
+.wrapper .right_projects .tabano .tabano_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 12px;
+    line-height: 16px;
+}
+.wrapper .right_projects .tabano .tabano_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Bold;
+    font-size: 12px;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_arrow{
+    width: 165px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_arrow .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.wrapper .right_projects .tabano .tabano_data .tabano_arrow .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+    float: left;
+}
+
+@keyframes moving {
+    0%{left:0px; opacity: 0.2;}
+    100%{ left: 30px; opacity: 1;}
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_arrow .right_data{
+    width: 110px;
+    height: auto;
+    float: right;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_arrow .right_data p{
+    float: right;
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_like{
+    width:35px;
+    height:auto;
+    float: left;
+    text-align: center;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_like i{
+    color: black;
+    font-size: 20px;
+}
+
+.wrapper .right_projects .tabano .tabano_data .tabano_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+
 
 
 
