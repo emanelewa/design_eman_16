@@ -13,6 +13,11 @@
     src: url("../fonts/RobotoCondensed-Bold.ttf");
 }
 
+@font-face {
+    font-family: RobotoCondensed-BoldItalic;
+    src: url("../fonts/RobotoCondensed-BoldItalic.ttf");
+}
+
 
 .clear{clear: both;}
 /* wrapper start*************/
@@ -223,7 +228,7 @@
 /*project************/
 .wrapper .projects .project{
     width: 400px;
-    height: 500px;
+    height: 504px;
     float: left;
     background-color: #ebb240;
     overflow: hidden;
@@ -232,11 +237,11 @@
 
 .wrapper .projects .project hr{
     position: absolute;
-    width: 1080px;
-    transform: rotate(-51deg);
+    width: 1076px;
+    transform: rotate(-52deg);
     background-color: white;
-    margin-left: -219px;
-    margin-top: 99px;
+    margin-left: -208px;
+    margin-top: 85px;
     border: none;
 }
 
@@ -309,8 +314,8 @@
 
 /*Fondue srart*******/
 .wrapper .projects .Fondue{
-    width: 496px;
-    height: 500px;
+    width: 500px;
+    height: 504px;
     float: left;
     overflow: hidden;
     position: relative;
@@ -613,6 +618,721 @@
     margin-top: 5px;
 }
 
+/*fiji started************/
+.wrapper .right_projects .fiji{
+    height:250px;
+    background-color: #ffffff;
+    width: 100%;
+    float: right;
+    background-image: url("../images/fiji.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.wrapper .right_projects .fiji .fiji_data{
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    float: right;
+}
+
+.wrapper .right_projects .fiji .fiji_data h1{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.wrapper .right_projects .fiji .fiji_data ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.wrapper .right_projects .fiji .fiji_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+
+.wrapper .right_projects .fiji .fiji_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.wrapper .right_projects .fiji .fiji_data .fiji_view .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+.wrapper .right_projects .fiji .fiji_data .fiji_view .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+}
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view .right_data p{
+    color: black;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view .right_data p a{
+    color: black;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view .fiji_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wrapper .right_projects .fiji .fiji_data .fiji_view .fiji_like i{
+    color: black;
+    font-size: 20px;
+}
+.wrapper .right_projects .fiji .fiji_data .fiji_view .fiji_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+/*louis section**********************/
+.wrapper .louis_xx{
+    width:900px;
+    height:516px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.wrapper .louis_xx .louis{
+    width: 299px;
+    height: 516px;
+    background-image: url("../images/louis.jpg");
+    float: left;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.wrapper .louis_xx .louis .louis_data{
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.wrapper .louis_xx .louis .louis_data h1{
+    font-family: RobotoCondensed-Light;
+    color:white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.wrapper .louis_xx .louis .louis_data ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.wrapper .louis_xx .louis .louis_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+.wrapper .louis_xx .louis .louis_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.wrapper .louis_xx .louis .louis_data .louis_view{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.wrapper .louis_xx .louis .louis_data .louis_view .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+
+.wrapper .louis_xx .louis .louis_data .louis_view .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+.wrapper .louis_xx .louis .louis_data .louis_view .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+}
+
+.wrapper .louis_xx .louis .louis_data .louis_view .right_data p{
+    color: white;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.wrapper .louis_xx .louis .louis_data .louis_view .right_data p a{
+    color: white;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+
+.wrapper .louis_xx .louis .louis_data .louis_view .louis_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrapper .louis_xx .louis .louis_data .louis_view .louis_like i{
+    color: white;
+    font-size: 20px;
+}
+.wrapper .louis_xx .louis .louis_data .louis_view .louis_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+
+/*louis_P22***********************************/
+.wrapper .louis_xx .louis_P22{
+    float: left;
+    background: #eaeaea;
+    width: 601px;
+    height:516px;
+    background-image: url("../images/louis_P22.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: 120px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .left_louis_P22{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.wrapper .louis_xx .louis_P22 .louis_P22_data .left_louis_P22 h1{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wrapper .louis_xx .louis_P22 .louis_P22_data .left_louis_P22 ul{
+    padding: 0;
+    margin: 0;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .left_louis_P22 ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    line-height: 16px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .left_louis_P22 ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .right_data p{
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .right_data p a{
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .louis_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .louis_like i{
+    color: black;
+    font-size: 22px;
+}
+.wrapper .louis_xx .louis_P22 .louis_P22_data .right_louis_P22 .louis_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+
+
+
+
+/*fourth_section********/
+.wrapper .fourth_section{
+    width:100%;
+    height:300px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+/*Sesann started***********/
+.wrapper .fourth_section .Sesann{
+    width: 595px;
+    height: 300px;
+    float: left;
+    background-image: url("../images/Sesann.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.wrapper .fourth_section .Sesann .Sesann_data{
+    width: 100%;
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    margin-top: 200px;
+}
+.wrapper .fourth_section .Sesann .Sesann_data ul{
+    margin: 0;
+    padding: 0;
+    width: 182px!important;
+    padding-left:80px;
+    display: inline-block;
+    float: left;
+}
+.wrapper .fourth_section .Sesann .Sesann_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 12px;
+    line-height: 16px;
+}
+.wrapper .fourth_section .Sesann .Sesann_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Bold;
+    font-size: 12px;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_arrow{
+    width: 165px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_arrow .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_arrow .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+    float: left;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_arrow .right_data{
+    width: 110px;
+    height: auto;
+    float: right;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_arrow .right_data p{
+    float: right;
+    color: #000000;
+    font-family: RobotoCondensed-Light;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_like{
+    width:35px;
+    height:auto;
+    float: left;
+    text-align: center;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_like i{
+    color: black;
+    font-size: 20px;
+}
+.wrapper .fourth_section .Sesann .Sesann_data .Sesann_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+    /*Alessi started**************/
+.wrapper .fourth_section .Alessi{
+    width: 304px;
+    height: 300px;
+    float: left;
+    background-image: url("../images/Alessi.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.wrapper .fourth_section .Alessi .Alessi_data{
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    float: right;
+}
+.wrapper .fourth_section .Alessi .Alessi_data h1{
+    font-family: RobotoCondensed-Light;
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data ul li{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+.wrapper .fourth_section .Alessi .Alessi_data ul li span{
+    list-style: none;
+    font-family: RobotoCondensed-Light;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .left_data{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .left_data i{
+    color: #ebb240;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .right_data{
+    width: auto;
+    height:auto;
+    float: left;
+    text-align: left;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .right_data p{
+    color: black;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    margin-left: 30px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .right_data p a{
+    color: black;
+    font-family: RobotoCondensed-Light;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .Alessi_like{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .Alessi_like i{
+    color: black;
+    font-size: 20px;
+}
+.wrapper .fourth_section .Alessi .Alessi_data .Alessi_view .Alessi_like p{
+    color: red;
+    font-family: RobotoCondensed-Light;
+    margin-top: 5px;
+}
+
+/*timeline started**************/
+.wrapper .fourth_section .timeline{
+    width: 434px;
+    height: 300px;
+    float: right;
+    background-color: #ebb240;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper .fourth_section .timeline .timeline_data{
+    width: 130px;
+    height: 95px;
+    position: absolute;
+    z-index: 999999;
+    margin-left: 20px;
+    margin-top: 85px;
+}
+.wrapper .fourth_section .timeline .timeline_data .left_data{
+    float: left;
+    width: 50px;
+    height: 95px;
+}
+.wrapper .fourth_section .timeline .timeline_data .left_data i{
+    color: #ffffff;
+    animation: moving 1s infinite;
+    position: relative;
+    font-size: 22px;
+}
+.wrapper .fourth_section .timeline .timeline_data .right_data{
+    width: 70px;
+    height: 95px;
+    float: right;
+    text-align: left;
+}
+.wrapper .fourth_section .timeline .timeline_data .right_data p span{
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    text-transform: uppercase;
+}
+.wrapper .fourth_section .timeline .timeline_data .right_data p{
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin: 0;
+    width: 50px;
+}
+
+
+
+.wrapper .fourth_section .timeline hr{
+    position: absolute;
+    width: 868px;
+    transform: rotate(-45deg);
+    background-color: white;
+    margin-left: -336px;
+    margin-top: 198px;
+    border: none;
+}
+
+/*studio_section started**********************/
+.wrapper .studio{
+    width:100%;
+    height:500px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*studio started*********/
+.wrapper .studio .left_studio{
+    width: 465px;
+    height: 500px;
+    float: left;
+    background-color: #ff9b6d;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper .studio .left_studio .left_studio_title{
+    width: auto;
+    height:auto;
+    position: absolute;
+    z-index: 99999;
+    overflow: hidden;
+    right:30px;
+    bottom:150px;
+    margin-right: 90px;
+}
+.wrapper .studio .left_studio .left_studio_title h1{
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: RobotoCondensed-Light;
+    margin: 0;
+}
+
+.wrapper .studio .left_studio hr{
+    position: absolute;
+    width: 1142px;
+    transform: rotate(-47deg);
+    background-color: white;
+    margin-left: -185px;
+    margin-top: 85px;
+    border: none;
+}
+
+/*right_studio*************/
+.wrapper .studio .right_studio{
+    width: 868px;
+    height: 500px;
+    float: right;
+    background-color: #e9eae2;
+    overflow: hidden;
+}
+
+.wrapper .studio .right_studio .awards{
+    width: 700px;
+    height: 360px;
+    margin: 60px auto;
+}
+.wrapper .studio .right_studio .awards .left_awards{
+    width: 320px;
+    height: 360px;
+    float: left;
+}
+.wrapper .studio .right_studio .awards .left_awards p:nth-of-type(1){
+    font-family: RobotoCondensed-BoldItalic;
+}
+.wrapper .studio .right_studio .awards .left_awards p:nth-of-type(2){
+    font-family: RobotoCondensed-BoldItalic;
+}
+.wrapper .studio .right_studio .awards .left_awards p{
+    font-family: RobotoCondensed-Light;
+    font-size: 17px;
+}
+.wrapper .studio .right_studio .awards .right_awards{
+    width: 320px;
+    height: 360px;
+    float: right;
+}
+.wrapper .studio .right_studio .awards .right_awards img{
+    border: 1px solid #b5b5b5;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards{
+    width: 100%;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards h4{
+    font-family: RobotoCondensed-Bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards .links_left{
+    width: 120px;
+    float: left;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards .links_left a{
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards .links_right{
+    float: right;
+    width: 120px;
+}
+.wrapper .studio .right_studio .awards .right_awards .botton_rightawards .links_right a{
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*staff section*********/
+.wrapper .staff{
+    width:100%;
+    height:390px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid darkred;
+    overflow: hidden;
+    background-color: #e9eae2;
+}
 
 
 
