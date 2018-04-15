@@ -21,9 +21,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="368" column="68" lean-forward="true" selection-start-line="368" selection-start-column="68" selection-end-line="368" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="444">
+              <caret line="522" column="0" lean-forward="true" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +33,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="1270" column="0" lean-forward="false" selection-start-line="1270" selection-start-column="0" selection-end-line="1270" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="1486" column="17" lean-forward="true" selection-start-line="1486" selection-start-column="17" selection-end-line="1486" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -50,17 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>left_data</find>
-      <find>right_data</find>
-      <find>.wrapper .projects .tabano .tabano_data .tabano_arrow</find>
-      <find>.wrapper .projects .Fondue .Fondue_data h1</find>
-      <find>.wrapper .projects .potter .potter_data p span</find>
-      <find>.wrapper .projects .Fondue .Fondue_data .Fondue_view .right_data</find>
-      <find>.wrapper .projects .potter</find>
-      <find>projects</find>
-      <find>tabano</find>
-      <find>bor</find>
-      <find>.wrapper .fourth_section .Sesann</find>
       <find>right_projects</find>
       <find>.wrapper .projects .project</find>
       <find>&lt;hr</find>
@@ -79,6 +70,18 @@
       <find>.wrapper .fourth_section .timeline .timeline_data</find>
       <find>project_title</find>
       <find>right_studio</find>
+      <find>I</find>
+      <find>.wrapper .right_projects</find>
+      <find>pho</find>
+      <find>.team .team_members .member .pho</find>
+      <find>.wrapper .staff .staff_data .left_staff p</find>
+      <find>&lt;i</find>
+      <find>.wrapper .staff</find>
+      <find>left_studio_title</find>
+      <find>.wrapper .studio .right_studio .awards</find>
+      <find>.wrapper footer .right_footer</find>
+      <find>.wrapper footer .right_footer .right .logo .social</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,6 +95,7 @@
         <option value="$PROJECT_DIR$/jjjj.html" />
         <option value="E:/parition D/bahnsawy website/html5, css3 traning/project 1/css/CSS.css" />
         <option value="$PROJECT_DIR$/yyyyyyyyyyyy.html" />
+        <option value="E:/parition D/bahnsawy website/tranning botstrab/startuprr/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -123,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -186,11 +190,12 @@
       <workItem from="1523441836956" duration="21443000" />
       <workItem from="1523634669483" duration="20142000" />
       <workItem from="1523735338338" duration="3443000" />
+      <workItem from="1523783338130" duration="14555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75097000" />
+    <option name="totallyTimeSpent" value="89652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -227,9 +232,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8096">
+          <caret line="368" column="68" lean-forward="true" selection-start-line="368" selection-start-column="68" selection-end-line="368" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27940">
+          <caret line="1270" column="0" lean-forward="false" selection-start-line="1270" selection-start-column="0" selection-end-line="1270" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7546">
           <caret line="343" column="30" lean-forward="false" selection-start-line="343" selection-start-column="30" selection-end-line="343" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -245,7 +270,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2882">
           <caret line="131" column="38" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -261,7 +288,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -277,7 +306,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -298,13 +329,6 @@
     <entry file="file://$PROJECT_DIR$/css/gggg.css" />
     <entry file="file://$PROJECT_DIR$/menu.html" />
     <entry file="file://$PROJECT_DIR$/jjjj.html" />
-    <entry file="file://E:/parition D/bahnsawy website/html5, css3 traning/project 1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/parition D/bahnsawy website/html5, css3 traning/project 1/css/CSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -313,18 +337,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yyyyyyyyyyyy.html" />
+    <entry file="file://E:/parition D/bahnsawy website/html5, css3 traning/project 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/parition D/bahnsawy website/tranning botstrab/startuprr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="230" column="27" lean-forward="false" selection-start-line="230" selection-start-column="27" selection-end-line="230" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/parition D/bahnsawy website/tranning botstrab/startuprr/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="250" column="39" lean-forward="false" selection-start-line="250" selection-start-column="39" selection-end-line="250" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="368" column="68" lean-forward="true" selection-start-line="368" selection-start-column="68" selection-end-line="368" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="444">
+          <caret line="522" column="0" lean-forward="true" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#article#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1270" column="0" lean-forward="false" selection-start-line="1270" selection-start-column="0" selection-end-line="1270" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="1486" column="17" lean-forward="true" selection-start-line="1486" selection-start-column="17" selection-end-line="1486" selection-end-column="17" />
           <folding />
         </state>
       </provider>
